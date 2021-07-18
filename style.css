@@ -10,8 +10,15 @@ body {
 }
 
 body {
-    background-color: #7159c1;
+    background-color: #444;
     font-family: Roboto, Arial, sans-serif;
+}
+
+._31Ne5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end
 }
 
 section {
@@ -26,6 +33,75 @@ h1 {
     letter-spacing: 1px;
     margin: 20px 0;
     color: white;
+}
+
+a #btn {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13;
+    width: 90px;
+    height: 50px;
+    background-color: #0066b8;
+    padding: 5px 10px;
+    border: none;
+    color: white;
+    margin: 10px 10px 10px 30px;
+}
+
+#head {
+    text-align: center;
+    border: 1px solid;
+    padding: 5%;
+    border-radius: 10%;
+    margin: 50px 100px;
+    background-color: darkslateblue;
+    display: flex;
+}
+
+.card-child {
+    border: 1px solid darkgray;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Roboto', sans-serif
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    margin: 0 50px;
+    padding: 0 50px;
+    justify-content: space-between;
+}
+
+.carro:hover {
+    cursor: pointer;
+}
+
+.description:hover {
+    background-color: white;
+    color: #7159c1;
+    cursor: pointer;
+}
+
+#btn:hover {
+    cursor: pointer;
+}
+
+.description {
+    text-align: center;
+    padding: 5px;
+    margin: 10px 10px;
+    font-size: 14px;
+    border: 2px solid;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}
+
+div.head img {
+    border: 10px solid white;
+    margin: 10px;
 }
 
 form {
